@@ -1,0 +1,15 @@
+{
+  "name": "wtf-file",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "author": "hxpe",
+  "license": "MIT",
+  "description": "Instantly explain mysterious files.",
+    "bin": {
+    "wtf": "bin/cli.js"
+  },
+  "keywords": ["cli", "developer-tools", "dev-tool", "config", "wtf", "explainer"]
+}

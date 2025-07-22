@@ -1,0 +1,150 @@
+{
+  ".nvmrc": {
+    "description": "Specifies the Node.js version. Used by nvm to automatically switch versions.",
+    "url": "https://github.com/nvm-sh/nvm"
+  },
+  ".editorconfig": {
+    "description": "Defines editor settings like indentation and line endings. Helps maintain consistent code style.",
+    "url": "https://editorconfig.org/"
+  },
+  ".browserslistrc": {
+    "description": "Specifies target browser versions for frontend tools like Babel, Autoprefixer, etc.",
+    "url": "https://browsersl.ist/"
+  },
+  ".eslintrc": {
+    "description": "Configuration for ESLint, a JavaScript/TypeScript linter.",
+    "url": "https://eslint.org/docs/latest/use/configure/"
+  },
+  ".prettierrc": {
+    "description": "Configuration for Prettier code formatter.",
+    "url": "https://prettier.io/docs/en/configuration.html"
+  },
+  ".gitignore": {
+    "description": "Lists files and directories Git should ignore.",
+    "url": "https://git-scm.com/docs/gitignore"
+  },
+  ".dockerignore": {
+    "description": "Like .gitignore, but for Docker builds.",
+    "url": "https://docs.docker.com/engine/reference/builder/#dockerignore-file"
+  },
+  ".env": {
+    "description": "Environment variables, often used to configure apps without hardcoding secrets.",
+    "url": "https://12factor.net/config"
+  },
+  ".npmrc": {
+    "description": "Configuration file for npm settings (e.g., registry, auth tokens).",
+    "url": "https://docs.npmjs.com/cli/v10/configuring-npm/npmrc"
+  },
+  ".yarnrc": {
+    "description": "Configuration file for Yarn package manager.",
+    "url": "https://classic.yarnpkg.com/en/docs/yarnrc/"
+  },
+  "tsconfig.json": {
+    "description": "Defines TypeScript compiler options like strict mode, module resolution, etc.",
+    "url": "https://www.typescriptlang.org/tsconfig"
+  },
+  "package.json": {
+    "description": "Defines a Node.js project: dependencies, scripts, version, and metadata.",
+    "url": "https://docs.npmjs.com/cli/v10/configuring-npm/package-json"
+  },
+  "package-lock.json": {
+    "description": "Lockfile to ensure consistent dependency versions for npm installs.",
+    "url": "https://docs.npmjs.com/cli/v10/configuring-npm/package-lock-json"
+  },
+  "yarn.lock": {
+    "description": "Yarn's lockfile to ensure consistent installs across environments.",
+    "url": "https://classic.yarnpkg.com/en/docs/yarn-lock/"
+  },
+  "pnpm-lock.yaml": {
+    "description": "Lockfile for projects using the pnpm package manager.",
+    "url": "https://pnpm.io/lockfile"
+  },
+  ".prettierignore": {
+    "description": "Specifies files and folders for Prettier to ignore when formatting.",
+    "url": "https://prettier.io/docs/en/ignore.html"
+  },
+  ".stylelintrc": {
+    "description": "Configuration for Stylelint, a CSS linter.",
+    "url": "https://stylelint.io/user-guide/configure"
+  },
+  ".commitlintrc": {
+    "description": "Configuration for commit message linting to enforce a standard format.",
+    "url": "https://github.com/conventional-changelog/commitlint#config"
+  },
+  ".huskyrc": {
+    "description": "Configuration for Husky Git hooks, like pre-commit or pre-push.",
+    "url": "https://typicode.github.io/husky/#/?id=manual"
+  },
+  ".lintstagedrc": {
+    "description": "Defines tasks to run on staged files before commits (commonly used with Husky).",
+    "url": "https://github.com/okonet/lint-staged"
+  },
+  "vite.config.js": {
+    "description": "Configuration for Vite, a fast build tool for frontend apps.",
+    "url": "https://vitejs.dev/config/"
+  },
+  "next.config.js": {
+    "description": "Configuration for Next.js apps, including rewrites, redirects, etc.",
+    "url": "https://nextjs.org/docs/pages/api-reference/next-config-js"
+  },
+  "nuxt.config.js": {
+    "description": "Main config file for Nuxt apps — routes, plugins, and SSR settings.",
+    "url": "https://nuxt.com/docs/api/nuxt-config"
+  },
+  "svelte.config.js": {
+    "description": "Defines how a Svelte project is built and bundled.",
+    "url": "https://kit.svelte.dev/docs/configuration"
+  },
+  ".babelrc": {
+    "description": "Configuration file for Babel, the JavaScript compiler.",
+    "url": "https://babeljs.io/docs/en/configuration"
+  },
+  "babel.config.js": {
+    "description": "Alternative way to configure Babel in JS format.",
+    "url": "https://babeljs.io/docs/en/configuration"
+  },
+  ".swcrc": {
+    "description": "Configuration for SWC (Speedy Web Compiler), a fast JS/TS compiler.",
+    "url": "https://swc.rs/docs/configuration/swcrc"
+  },
+  ".vscode": {
+    "description": "Folder with VSCode-specific settings and extensions for the project.",
+    "url": "https://code.visualstudio.com/docs/getstarted/settings"
+  },
+  ".gitlab-ci.yml": {
+    "description": "GitLab CI configuration file defining build/test/deploy pipelines.",
+    "url": "https://docs.gitlab.com/ee/ci/yaml/"
+  },
+  ".github": {
+    "description": "GitHub metadata folder (e.g., actions, issue templates, PR templates).",
+    "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-customizing-your-repository"
+  },
+  ".gitattributes": {
+    "description": "Defines file-level Git attributes (e.g., line endings, merge strategies).",
+    "url": "https://git-scm.com/docs/gitattributes"
+  },
+  "readme.md": {
+    "description": "Main documentation file for the project, usually shown on GitHub.",
+    "url": "https://www.makeareadme.com/"
+  },
+  "license": {
+    "description": "Specifies the license under which the code can be used or modified.",
+    "url": "https://choosealicense.com/"
+  },
+  "procfile": {
+    "description": "Declares how a Heroku app should be run (web, worker, etc.).",
+    "url": "https://devcenter.heroku.com/articles/procfile"
+  },
+  "dockerfile": {
+    "description": "Defines how to build a Docker image for the project.",
+    "url": "https://docs.docker.com/engine/reference/builder/"
+  },
+  "makefile": {
+    "description": "A set of rules for automating tasks using the make command.",
+    "url": "https://opensource.com/article/18/8/what-how-makefile"
+  },
+  ".tsconfig.build.json": {
+    "description": "An additional tsconfig used specifically for building TypeScript projects.",
+    "url": "https://www.typescriptlang.org/tsconfig#extends"
+  }
+}

@@ -19,12 +19,15 @@ Ever cloned a repo and wondered what `.nvmrc`, `.browserslistrc`, or `.editorcon
 **`wtf`** is a zero-config CLI tool that tells you exactly what these files are, in plain English, right from your terminal.
 
 ```bash
-npx wtf .nvmrc
+npm install -g wtf-file
+# Installs wtf!
+
+wtf .nvmrc
 # => WTF is .nvmrc
 # => → Specifies the Node.js version. Used by nvm to automatically switch versions.
 # => Want to know more? https://github.com/nvm-sh/nvm
 
-npx wtf
+wtf
 # => Auto-detects files in your project root and explains them.
 ```
 
@@ -44,17 +47,17 @@ npx wtf
 
 You don’t even have to install it!
 
-### Run directly:
-
-```bash
-npx wtf
-```
-
-### Or install globally:
+### Install globally:
 
 ```bash
 npm install -g wtf-file
 wtf
+```
+
+### Or run directly:
+
+```bash
+npx wtf-file
 ```
 
 ---

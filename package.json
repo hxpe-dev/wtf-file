@@ -8,8 +8,12 @@
   "author": "hxpe",
   "license": "MIT",
   "description": "Instantly explain mysterious files.",
-    "bin": {
+  "bin": {
     "wtf": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hxpe-dev/wtf-file"
   },
   "keywords": ["cli", "developer-tools", "dev-tool", "config", "wtf", "explainer"]
 }

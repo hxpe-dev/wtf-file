@@ -45,8 +45,6 @@ wtf
 
 ## Installation
 
-You don’t even have to install it!
-
 ### Install globally:
 
 ```bash

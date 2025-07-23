@@ -146,5 +146,65 @@
   ".tsconfig.build.json": {
     "description": "An additional tsconfig used specifically for building TypeScript projects.",
     "url": "https://www.typescriptlang.org/tsconfig#extends"
+  },
+  ".gitmodules": {
+    "description": "Tracks Git submodules, which are nested Git repositories.",
+    "url": "https://git-scm.com/docs/gitmodules"
+  },
+  ".clang-format": {
+    "description": "Configuration file for clang-format to auto-format C/C++/Java/JavaScript code.",
+    "url": "https://clang.llvm.org/docs/ClangFormatStyleOptions.html"
+  },
+  ".ncurc": {
+    "description": "Configuration for npm-check-updates, a tool to upgrade npm dependencies.",
+    "url": "https://github.com/raineorshine/npm-check-updates#configuration-files"
+  },
+  ".parcelrc": {
+    "description": "Parcel bundler configuration file to customize its behavior.",
+    "url": "https://parceljs.org/features/configuration/"
+  },
+  "vercel.json": {
+    "description": "Configuration file for Vercel deployments (redirects, rewrites, headers, etc.).",
+    "url": "https://vercel.com/docs/configuration"
+  },
+  "netlify.toml": {
+    "description": "Netlify build and deploy configuration file.",
+    "url": "https://docs.netlify.com/configure-builds/file-based-configuration/"
+  },
+  "tslint.json": {
+    "description": "Configuration for TSLint (deprecated in favor of ESLint for TypeScript).",
+    "url": "https://palantir.github.io/tslint/"
+  },
+  "lerna.json": {
+    "description": "Configuration for Lerna, a monorepo management tool.",
+    "url": "https://lerna.js.org/docs/configuration"
+  },
+  "nx.json": {
+    "description": "Configuration for Nx, a build system for monorepos.",
+    "url": "https://nx.dev/packages/workspace/documents/nx-json"
+  },
+  "turbo.json": {
+    "description": "Configuration file for Turborepo, a high-performance monorepo build system.",
+    "url": "https://turbo.build/repo/docs/reference/configuration"
+  },
+  "jest.config.js": {
+    "description": "Configuration for the Jest testing framework.",
+    "url": "https://jestjs.io/docs/configuration"
+  },
+  "playwright.config.ts": {
+    "description": "Configuration file for Playwright end-to-end tests.",
+    "url": "https://playwright.dev/docs/test-configuration"
+  },
+  "cypress.config.js": {
+    "description": "Configuration file for Cypress end-to-end testing framework.",
+    "url": "https://docs.cypress.io/guides/references/configuration"
+  },
+  ".releaserc": {
+    "description": "Semantic Release configuration file for automating versioning and publishing.",
+    "url": "https://semantic-release.gitbook.io/semantic-release/usage/configuration"
+  },
+  "bitconfig.json": {
+    "description": "Configuration file for Bit component-based development.",
+    "url": "https://harmony-docs.bit.dev/configuration/overview"
   }
 }

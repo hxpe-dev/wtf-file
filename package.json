@@ -15,5 +15,12 @@
     "type": "git",
     "url": "https://github.com/hxpe-dev/wtf-file"
   },
-  "keywords": ["cli", "developer-tools", "dev-tool", "config", "wtf", "explainer"]
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "dev-tool",
+    "config",
+    "wtf",
+    "explainer"
+  ]
 }

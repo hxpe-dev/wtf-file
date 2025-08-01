@@ -17,7 +17,7 @@ function printExplanation(file, showNeg=true) {
   const result = explain(file);
   if (!result && showNeg) {
     console.log(`🤷 ${file}: No explanation found (yet).`);
-  } else {
+  } else if (result) {
     console.log("WTF is", styles.bold(path.basename(file)));
     console.log("→", result.description);
     if (result.url) {
@@ -41,5 +41,7 @@ if (args.length === 0) {
     }
   });
 } else {
-  args.forEach(printExplanation);
+  args.forEach((arg) => {
+    printExplanation(arg, true);
+  });
 }
